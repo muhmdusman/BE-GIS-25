@@ -44,6 +44,7 @@
 - A **bar chart** showing how many pixels have each brightness value
 - X-axis = brightness values (0 to 255 for 8-bit)
 - Y-axis = number of pixels (frequency)
+Prcatice Question : Practice 3*3 table values histogram
 
 ```
 Frequency

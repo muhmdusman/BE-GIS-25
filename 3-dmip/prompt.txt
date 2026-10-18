@@ -1,0 +1,6 @@
+i want you to make notes of the pdfs lect from 1-5 in simple 
+easy words , without skipping any concept , for each leacture
+ seprate notes files , for each lecture and use markdown format
+  and add images from these lecture where required , and if in
+   any place some types or something like this is to be 
+   remember makes its easy acronyms to remember

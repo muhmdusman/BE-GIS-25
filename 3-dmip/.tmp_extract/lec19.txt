@@ -1,0 +1,227 @@
+Urban Land Surface
+   Temperature
+              Urban Heat Island (UHI)
+• An urban heat island (UHI) is a metropolitan area that is
+  significantly warmer than its surrounding rural areas
+  due to human activities
+
+• The term "heat island" describes built up areas that are
+  hotter than nearby rural areas
+              Urban Heat Island (UHI)
+
+• Urban materials such as construction material, roofs, asphalt,
+
+  concrete and roads absorb more heat from the sun
+
+• The subsequent release of the energy causes urban areas to
+
+  be warmer compared to the surrounding non-urban areas
+
+  giving rise to the urban heat effect
+              Urban Heat Island (UHI)
+• Depending on the location, the urban heat island effect can
+  be aggravated by the absence or removal of vegetation, which
+  provides shade and evapotranspiration to cool the air on
+  warm days
+                 Urban Heat Island (UHI)
+• The dynamics of the heat island effect are a function of the
+   – Time
+
+   – Meteorological conditions
+
+   – Local and urban characteristics
+
+       and consequently,
+
+• These functions could be unique for particular urban areas
+
+• In general, parks, lakes and open areas, appear relatively cooler
+  compared to commercial, industrial or dense buildings
+               Urban Heat Island (UHI)
+• Traditionally, urban heat island effects are observed from the
+
+  measurement of air temperatures from fixed weather
+
+  observation stations and sensors mounted on moving vehicles
+        Urban Heat Island (UHI) Effect
+• Steps to reduce the heat island effect
+   • Increasing tree and vegetative cover
+
+   • Creating green roofs (also called "rooftop gardens“
+
+   • Installing cool—mainly reflective roofs
+
+   • Using cool pavements (permeable pavement parking lot
+     that includes shade trees)
+        Urban Heat Island (UHI) Effect
+• During mornings, urban materials will slowly absorb heat
+
+• Urban heat islands are best observed in the night when
+  maximum radiation from urban materials occurs
+
+• The timing for satellites is therefore not optimized for
+  detecting urban heat islands
+Land Covers and Temperatures
+
+
+
+
+  Surface and atmospheric temperatures vary over different land use areas. Surface
+  temperatures vary more than air temperatures during the day, but they both are fairly
+  similar at night. The dip and spike in surface temperatures over the pond show how water
+  maintains a fairly constant temperature day and night, due to its high heat capacity.
+               Urban Heat Island (UHI)
+• UHI studies traditionally are            conducted with in situ
+   measurements of air temperatures
+
+• Possible to study UHIs both remotely and on continental and
+   global scales
+
+• Remotely sensed thermal imagery has the advantage of
+   providing       a    time-synchronized        dense      grid      of
+   temperature(Radiant) data over a whole city
+
+• Radiant temperature - what we measure with thermal remote sensing
+         Land Surface Temperature (LST)
+• Land Surface Temperature (LST) is defined as:
+   – The temperature of the interface between the Earth’s surface
+     and its atmosphere
+   – The temperature of the air near the Earth´s surface
+   – The skin temperature of the ground
+• The LST in remote sensing can be defined as:
+
+   – The average surface temperature of the ground under the
+     pixel scale(pixel size) mixed with different fractions of surface
+     types
+        Land Surface Temperature (LST)
+• LSTs are regarded as a function of four surface and subsurface
+  properties:
+
+   – Reflectance/ Albedo
+
+   – Emissivity
+
+   – Thermal properties of urban construction materials
+     (including moisture), and
+
+   – The composition and structure of the urban canopy
+         Land Surface Temperature (LST)
+• LST: an important parameter in understanding the urban
+
+  thermal environment and its dynamics
+
+• Due to the strong heterogeneity of land surface characteristics
+
+  such as vegetation, topography, and soil, LST changes rapidly in
+
+  space as well as in time
+          Land Surface Temperature (LST)
+• LST is widely used in a variety of fields including
+
+   • Evapotranspiration
+
+   • Climate change
+
+   • Hydrological cycle
+
+   • Vegetation monitoring
+
+   • Urban climate and environmental studies
+          Land Surface Temperature (LST)
+• Given the complexity of surface temperature over land, ground
+  measurements cannot practically provide values over wide
+  areas
+
+• With the development of remote sensing from space, satellite
+  data offer the only possibility for measuring LST over the entire
+  globe with sufficiently high temporal resolution and with
+  complete spatially averaged rather than point values
+         Land Surface Temperature (LST)
+• Direct estimation of LST from the radiation emitted in the TIR
+
+  spectral region is difficult to perform with accuracy, since the
+
+  radiances measured by the radiometers onboard satellites
+
+  depend not only on surface parameters (temperature and
+
+  emissivity) but also on atmospheric effects
+         Land Surface Temperature (LST)
+• Surface temperature is defined using the radiance emitted by a
+
+  surface, this temperature also known as the skin temperature
+
+
+
+
+• Brightness temperature is the land surface temperature
+
+  obtained on the satellite level by thermal infrared (TIR) sensors
+              Thermal IR Remote Sensing
+
+• Thermal infrared radiation refers to electromagnetic energy within a
+
+   wavelengths of between 3 and 14 micrometers
+
+• Most remote sensing applications make use of the 3 to 5 and 8 to 14
+
+   micrometer range, atmospheric windows      (due to minimum absorption)
+
+
+• Systems on aircraft flying below the ozone layer are not affected and
+
+   record the full 8-14 µm band
+              Remote Sensing based Land
+                Surface Temperatures
+• Convert DN to Radiance
+
+• Calculate at-sensor (top-of-atmosphere) brightness
+  temperature
+
+• Calculate NDVI
+
+• Calculate Emissivity
+
+• Calculate LST
+                   DN To Radiance
+• The DN values range between 0 and 255
+
+
+
+
+• where the LMIN and LMAX are the spectral radiances for each
+  band at digital numbers 1 and 255.
+
+• DN is the pixel DN value, λ is the wavelength.
+
+• QCALMAX and QCALMIN are the pixel values for each band
+
+• LMIN and LMAX values from the header file
+             At sensor Brightness Temperature
+         Radiance  Brightness Temperature
+                 Planck’s Radiance Function
+
+
+(At sensor Brightness Temperature)
+
+
+
+
+      • T is the brightness temperature in Kelvin (K),
+      • L λ is the spectral radiance in Wm−2sr−1mm−1,
+      • and K2 and K1 are calibration constants ( Metadata file)
+   Calculation of Land Surface Emissivity
+• Emissivity can be estimated by utilizing NDVI
+   • NDVI= NIR-R/NIR+R
+
+
+
+• Estimation of emissivity
+   • εi =1.009 4 +0.04 7 ln(NDVI)
+where
+λ is effective wavelength,
+σ is the Boltzmann constant (1.38 × 10−23 J/K),
+h is the Planck’s constant (6.626 × 10−34 Js),
+c is the velocity of light in a vacuum (2.998 × 10−8 m/sec), and
+ε is land surface emissivity.
+

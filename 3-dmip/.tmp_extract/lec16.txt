@@ -1,0 +1,315 @@
+Supervised Classification
+                 Supervised Classification
+
+• The process of using samples of known classes to classify the
+
+  remaining unknown pixels to these classes within the image
+
+• Supervised classification exploits prior knowledge about the
+
+  data to identify which of the predefined informational classes
+
+  closely resembles a classification unit
+
+• This prior knowledge typically is in the form of training samples
+                 Supervised Classification
+
+• Analyst first selects training samples/ signatures for all
+  representative classes (classes of interest)
+
+• These training samples are a collection of representative data
+
+  points for which the class labels are known to the analyst
+
+• Statistical characteristics (based on spectral information) of
+  these training samples are used to train the classifier, to identify
+  and match the class labels of the unknown data points
+                 Supervised Classification
+• As the classification process is based on the training data, they
+  must be homogeneous and represent the classes as closely as
+  possible
+
+• Pixels that are at the boundaries of the different information
+  classes, (pixels with mixed spectral characteristics) should not
+  be selected as training pixels to avoid between-class confusions
+
+• The training samples for a class should represent within-class
+  spectral variations and should not include pixels with obvious
+  mixtures
+                 Supervised Classification
+
+• The training samples should be well spread over the entire
+  image to adequately represent the information classes
+
+• An image with high within-class spectral variability and low
+  between-class spectral similarity makes it hard to select true
+  representative class samples and to achieve satisfactory
+  classification results
+
+• Training pixels should be sufficient in numbers , and the general
+  rule is to collect at least 10xN to 100xN pixels for each class,
+  where N is the number of bands of the image being used
+                 Supervised Classification
+
+• Brightness value of each pixel of the training data of the desired
+
+  classes are used to calculate the mean, standard deviation,
+
+  variance-covariance and correlation matrices
+
+• These measures represent the spectral characteristics of classes,
+
+  and required by the algorithms to assign appropriate class to
+
+  the remaining unclassified image data
+           Optimum Bands Selection for Image
+             Classification: Feature Selection
+•   After getting training statistics, a judgment is often made to
+    determine the bands that are most effective in discriminating
+    each class from all others
+
+•   This process is commonly called feature selection
+
+• The goal is to exclude the bands from the analysis that provide
+    redundant spectral information
+
+• This minimizes the cost of the digital image classification process
+           SUPERVISED CLASSIFICATION
+• Training stage
+    • Analyst need to have significant prior knowledge of the area and land covers
+
+    • Collection of appropriate Training sample or training signature
+• Band Selection
+• Classification Stage : categorization of each pixel to landscape class it
+    most closely resemble
+• Accuracy Assessment
+• Output stage: the results may be used to:
+   •   Generate thematic maps
+
+   •   Tabulate scene/classification statistics
+
+   •    Use of the derived information for further analysis in GIS
+  Minimum Distance to Means Classification Algorithm
+            To assign unclassified pixels to their nearest classes
+
+
+• The    minimum        distance      to    means       decision     rule   is
+  computationally simple and commonly used
+
+• It requires that the user provide the mean vectors for each class
+  in each band µck from the training data
+
+• To perform a minimum distance classification, a program must
+  calculate the distance to each mean vector µck from each
+  unknown pixel (BVijk)
+Minimum Distance to Means Classification Algorithm
+                   MINIMUM DISTANCE TO MEANS
+•   Point 1, an unknown, the shortest straight-
+    line distance to the several means is to the
+                     Soil
+    class “----------------------". Point 1, then, is
+                            Soil     Crops
+    assigned to -----------------------------
+•   Point 2 is slightly closer to the "soil" but
+    lies at the edge of the "urban" spread.
+    Here, the classification seems ambiguous.
+      – By the minimum distance rule, it
+         would go to "soil" but this may be
+         erroneous ("urban" would have been a
+         greater likelihood).
+•   Point 3 is not near any of the class DN
+    clusters, but is about equidistance between
+    "urban", "water", "forest", and "heather".
+    If one plays the odds, "urban" may be
+    closer to 3; but this situation indicates how
+    misclassification might occur.
+                 Classification Algorithm
+• Several widely adopted classification algorithms exits
+
+• The most widely adopted parametric classification algorithms
+  is the Maximum likelihood
+
+• These algorithms require that
+   • The number of classes be specified in advance, and
+
+   • That certain statistical characteristics of each class to which the
+     pixels are to be allocated are known, these estimates are
+     derived from the training samples
+    Maximum Likelihood Classification Algorithm
+• The maximum likelihood decision rule is based on probability
+
+• The probability of a pixel belonging to each of a predefined set of m classes is
+
+   calculated, and the pixel is then assigned to the class for which the probability
+
+   is the highest
+
+• The mean, variance and co-variance of each training class is needed to
+
+   compute the probability function
+                                             Class overlap
+
+                               wj
+
+Band 2        wi
+
+
+
+
+                              Band 1
+
+
+
+
+ # of
+ pixels
+
+
+
+          0        Digital Number      255
+
+                     Band 1
+       Maximum Likelihood Classifier
+
+                                               Mean Training Sample 1
+
+
+                                                Candidate Pixel
+
+
+                                              Mean Training Sample 2
+
+
+
+                                It appears that the candidate pixel is
+                                closest to Sample 1.
+                                However, when we consider the
+                                variance around the samples…
+
+
+
+
+Blue    Green   Red   Near-IR      Mid-IR
+   Maximum Likelihood Classifier
+
+                                            Mean Sample 1
+
+                                            Candidate Pixel
+
+                                            Mean Sample 2
+
+
+
+
+                        In view of with in class variance, the
+                        candidate pixel clearly belongs to the
+                        sample 2 group.
+
+
+
+
+Blue   Green   Red   Near-IR    Mid-IR
+What happens when the
+probability density
+functions of two or more
+training classes overlap
+in feature space? For
+example, consider two
+hypothetical normally
+distributed probability
+density functions
+associated with forest
+and agriculture training
+data measured in bands
+1 and 2. In this case,
+pixel X would be
+assigned to forest
+because the probability
+density of unknown
+measurement vector X is
+greater for forest than
+for agriculture.
+      Summary -Training Samples Guidelines
+
+• Minimum number of samples = number of parameters to be estimated:
+
+• Practical minimum = 10 to 100 x no. bands.
+
+• Distribute training pixels for a spectral class across the image to better
+
+   represent the variation of the class in the image.
+
+• Do not include pixels in training areas that are adjacent to borders of
+
+   spectral classes (like field boundaries).
+
+• Do not include pixels for groups containing obvious mixtures (e.g. deep
+
+   water and shallow water)
+Different techniques for signatures
+selection
+Signature Styles
+        Merge Signature of Same Class
+
+Select the classes need to be merged> shift click Class #
+Press “ merge selected signature button
+New class of merged signatures is added at the end
+Delete the previous selected on and assign name to the merged signatures
+Signatures Accuracy
+Which one will be a good signature?
+
+
+
+
+                         “good”
+
+
+
+
+                        “bad”
+Signatures Accuracy-Histogram
+Original and classified image
+              Class Thematic Map
+
+
+
+
+•Assign color to classes
+•Add area column
+Washington
+               MINIMUM
+DC Mall data   DISTANCE TO
+set.           MEAN
+               METHOD
+
+
+
+
+                  Key
+MAXIMUM LIKELYHOOD METHOD
+
+
+
+
+                   Key
+Supervised                 vs.   Unsupervised
+  Select Training fields          Run clustering
+                                  algorithm
+
+
+
+  Edit/evaluate                      Identify classes
+  signatures
+
+
+
+    Classify image                 Edit/evaluate
+                                   signatures
+
+
+
+
+  Evaluate                        Evaluate
+  classification                  classification
+?
+

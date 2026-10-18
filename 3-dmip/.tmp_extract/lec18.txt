@@ -1,0 +1,660 @@
+July 2006   1
+                1
+                      DISASTER
+• Widespread, varies
+  – Spatially-Location and extent
+  – Temporally- Repeat
+
+• Resources (Rescue, Relief, Rehabilitation)
+  – Data (constraints)
+     • Pre and Post Events
+     • Scale / Resolution
+     • Availability and cost
+     • Expertise
+                      Floods
+            Risk is a spatial problem
+• Hazard:
+  – How much water when and where?
+
+• Elements at risk:
+  – Which elements where, and how many/much ?
+
+• Vulnerability:
+  – How much water where which elements at risk are?
+    How to answer these questions?
+•   Where did hazards occur before?
+•   What type did occur?
+•   How often did they occur?
+•   Why did they happen there?
+•   What are the main causes?
+•   How can we map these?
+•   Where will they happen in the coming period?
+•   How frequent will they happen in future?
+•   How big will they be?
+•   What would be the expected damage, and where?
+•   What can we do to decrease this expected damage?
+                  Charter Member Agencies
+                    The International Charter Space and Major Disasters
+
+
+
+
+            CSA
+                                             ESA
+            Canada                           DMC
+                                             Europe            CNSA
+         NOAA                   CNES                           China        JAXA
+         USGS                   France                                      Japan
+         USA
+                                                             ISRO
+                                                             India
+
+                      CONAE
+•   DLR-Germany       Argentina
+•   SERTIT
+•   UN-SPIDER
+•   UNOSAT
+      6                                                            Courtesy of Brenda Jones, USGS
+•   USGS Hazards Data Distribution System
+                        Activation Distribution
+                           (Floods and storms)
+
+
+
+
+    Costa Rica
+
+
+
+
+                 Peru
+
+
+
+
+Flood/ocean wave
+  7                                                      Courtesy of Brenda Jones, USGS
+Storm/hurricane                   As of April 30, 2009
+     Activation distribution
+     Earthquakes, volcanic eruptions and landslides
+
+
+
+
+Earthquake
+Volcano
+   8                                                     Courtesy of Brenda Jones, USGS
+Landslide                         As of April 30, 2009
+   Activation distribution
+   Oil spills, forest fires and other hazards
+
+
+
+
+Oil spill
+Fire
+Ice/snow hazard
+   9                                                       Courtesy of Brenda Jones, USGS
+Other                               As of April 30, 2009
+       Data Units Used for Various Disasters
+           500
+
+
+
+
+                                                                                          (Floods and storms)
+           400
+
+
+
+
+                             300
+           300
+
+
+
+                 203
+
+                                   181
+           200
+
+                                          67
+
+
+                       59
+           100
+                             171                          22
+                 153                                                                                     87
+                                   133 138                                                    55
+                                                     75         44                                            41
+                       92                                                                                                             35
+                                                11        71                                                                     2
+                                                                34                            48         46   41          20    33    37
+                                                 7   18                                             3
+                                                                                                    2               2
+                                                                                                                    6       7                3     1
+            0                                                          1
+                 356   151 471     314    205   18   93   91    78     1                103    5    133 82     8    27     35    72    3      1
+
+                             Flood/ocean wave 1780                                                      Storm/hurricane 469
+                                 105 activations                                                           30 activations
+
+                                                                 As of April 30, 2009
+New
+ ENVISAT    ERS             SPOT         RADARSAT         IRS              SAC-C              DMC         Landsat         ALOS             CBERS       POES
+Archive
+      10
+                                                                                                                        Courtesy of Brenda Jones, USGS
+                  Charter Operational Loop
+
+                               Emergency
+                                 On-Call
+                                                               CSA            RADARSAT-1
+                              Officer (ECO)
+                                                               ESA            ERS-2 and ENVISAT
+
+
+           On-Duty Operator                                  CNES             SPOT-1, 2, 4 & 5
+               (ODO)                                                          NOAA-12, 14, 15, 16
+                                                             NOAA             & 17, POES and GOES
+
+                                Project                       ISRO            IRS
+                                Manager
+ Authorized                                                 CONAE             SAC-C
+                                 (PM)
+ User (AU)
+                                                              JAXA            ALOS
+
+                                                             USGS             Landsat
+
+                                                            DMC               DMC Constellation
+Disaster                                                  CNSA
+                                                                              CBERS
+
+
+                 End User (EU)                Value-Added Reseller
+ 11                                                                  Courtesy of Brenda Jones, USGS
+                                                     (VAR)
+Flood Extent Mapping using RS
+            Data
+PRECIPITATION ON JUNE 7, 2008
+
+
+
+
+                                                        13
+                    Courtesy National Weather Service
+PRECIPITATION ON JUNE 1-7, 2008
+
+
+
+
+                                                               14
+                           Courtesy National Weather Service
+STUDY AREA-USGS GAGE STATIONS ALONG RIVERS
+
+
+
+
+                                        Gage Stations
+
+                                                  15
+                                           Water Levels for Wabash River
+        35                                                                                                           32.44
+                                                                                               30.9
+               28.7                                                       28.48
+        30                                              26.56
+                                   25.02
+        25
+                       18                                                                                                     19
+        20                                                                                              17.5
+ Feet
+                                                                 15               16
+                                           14
+        15
+        10                                                                              6.27
+                                                 5.74                                                            5
+                            3.69
+         5
+         0
+               8-Jun               8-Jun                10-Jun           10-Jun                10-Jun                12-Jun
+
+             Clinton,IN     Terre Haute,IN        Riverton,IN         Hutsonville,IL     Vincennes,IN          Mount Carmel,IL
+
+                                                Gauge Stations          Level year 07      Level Year 08             Flood Stage
+
+• An average of about 12 feet water level increase in about five days                                    Courtesy USGS
+
+• Highest water level recorded Mt Carmel, IL on June 14,2008- 33.24 feet ( remained 8 days
+above flood stage)
+
+
+                                                                                                                              16
+                                       Water Levels for White River
+        30            26.84                    26.56                      28.02                             26.96
+        25
+        20                                                                             16                               16
+                                 14                        13
+ Feet
+        15
+        10
+             4.19                     3.63                      3.66                              4.13
+         5
+         0
+                      8-Jun                     9-Jun                    12-Jun                             10-Jun
+
+                    Spencer,IN               Newberry,IN        Above Peterburg,IN                       Peterburg,IN
+
+
+                                             Gauge Stations            Level year 07        Level Year 08       Flood Stage
+                                                                                                    Courtesy USGS
+
+• An average of about 12 feet water level increase in about five days
+
+
+                                                                                                                             17
+Pre Event
+Post Event
+          STUDY AREA LANDSAT IMAGES
+
+
+
+
+LANDSAT TM_JUNE 09, 2007                LANDSAT TM- JUNE 11,2008
+                                                                   20
+    Bands 5, 4, 3 displayed as red, green and blue
+Pre Event-2007   Post Event- 2008
+     Aerial Image
+
+
+
+
+22
+             CLASSIFICATION RESULTS
+
+               VIGO                                     VIGO
+                          CLAY                                     CLAY
+                                 OWEN                                     OWEN
+
+
+
+
+             SULLIVAN                                 SULLIVAN
+                            GREENE                                   GREENE
+
+
+
+
+              KNOX      DAVIESS                        KNOX      DAVIESS
+
+
+
+
+                   PIKE                                     PIKE
+         GIBSON                                   GIBSON
+
+
+
+20       0         20             40 Miles   20   0         20             40 Miles
+
+
+
+
+     WATER_2007                                   WATER_2008                          23
+         FLOOD EXTENT
+
+
+               VIGO
+                           CLAY
+                                  OWEN
+
+
+
+
+             SULLIVAN
+                              GREENE
+
+
+
+
+              KNOX         DAVIESS
+
+
+
+
+                   PIKE
+        GIBSON
+
+
+
+20       0            20             40 Miles
+
+
+
+Excluding 2007 water                            24
+                   FLOOD EXTENT AND AFFECTED AREAS
+
+                  Area       Flooded area   % Flooded
+County          (Hectares)    (Hectares)      area                 VIGO
+                                                                               CLAY
+ Vigo             106224        10209           10                                    OWEN
+
+ Clay             93237         8272            9
+
+                                                                 SULLIVAN
+ Owen             100317        4359            4                                 GREENE
+
+
+Sullivan          117465        6715            6
+
+Greene            141291        14534           10                KNOX         DAVIESS
+
+ Knox             135653        20638           15
+
+Daviess           113004        12709           11
+                                                                       PIKE
+                                                             GIBSON
+ Pike             88302         5994            7
+
+Gibson            129159        9940            8       20   0            20             40 Miles
+
+
+           Total Flood area = 93,000 Hectares                                              25
+           Excluding 2007 water
+https://engineering.purdue.edu/CE/Academics/Groups/Geomatics/floodmaps
+                                                                         26
+    USDA CROPS DATA-2008
+
+
+
+
+          Corn    Soybean   Wheat   Pasture   Woods
+
+
+
+USDA Crops 2008                     USDA Crops With 2008 Water Layer28
+    CROP DAMAGE SUMMARY-NINE COUNTIES 2008
+
+                     Crops area under flood (Hectare)
+                                             Pasture,   Forest,
+County       Corn    Soybean     Wheat         Hay      Shrubs
+  Vigo       1823     3911          49          680      1675
+  Clay       1586     4058          23          208      1025
+  Owen        393     1336          31          510      1539
+ Sullivan     752     1994          18          647      1633
+ Greene      1607     7315         118          652      2061
+  Knox       1852     10496         63          526      2604
+ Daviess     1682     6544          38          297      1359
+  Pike        252     3265          2           249      1071
+ Gibson       780     2543          5           293      1362
+Total Area   10728    41462        347         4062      14329
+
+
+                                                                 29
+                              SUMMARY-NINE COUNTIES
+
+
+
+
+                                     CROP S DAMAGE (%) IN THE INDIANA JUNE 2008 FLOOD
+           35
+
+           30
+                                                                                          31
+           25                                                                               23
+
+
+
+% damage
+                                                                                                         20
+           20                                                                                18                             18
+                 16                   16                                                                                                     16
+                                                                                                        19                                                      14
+           15                                                                                                         12   17
+                16                                       1111                                                                              16
+                                     14
+           10             8                             12                                                                       8                                       7 7
+                                                6               5           6       5 5                           6                  5 6
+                      4       4                                                 3                 4 4                                                   3   8
+           5                                        2               2   7                                     2
+                                          0.3                                                                                                     1 2                1
+           0
+                     Vigo                 Clay               Owen       Sullivan      Greene        knox                    Daviess             Pike            Gibson
+                                                                               Counties
+                              Corn                  Soybean             Wheat            Pasture,Hay,Grass                           Forest,Shrubs
+
+
+An average of about 15% of corn and soybeans areas affected by floods
+
+
+                                                                                                                                                                     30
+CROPS DAMAGE MAP
+
+
+                                VIGO
+                                               CLAY
+                                                        OWEN
+
+
+
+
+                            SU LLIVA N
+                                                  GREE NE
+
+              Corn
+              Soybean
+              Wheat
+              Pasture           KNOX          DAVIESS
+              Woods
+
+
+
+
+                                       PIKE
+                      GIB SON
+
+
+
+
+         20             0                20              40 Miles
+
+
+                                                                    31
+                          FLOOD AFFECTED ROADS
+
+
+                                                                    VIGO        CLAY
+                 VIGO        CLAY
+
+                                       OWEN                                               OWEN
+
+
+
+                                                              SU LLIVA N
+
+            SU LLIVA N           GREE NE                                                  GREE NE
+
+
+
+
+              KNOX                                                KNOX          DAVIESS
+                             DAVIESS
+
+
+
+
+                                                                   PIKE
+
+                        PIKE
+       GIB SON
+                                                          GIB SON
+
+
+20      0               20              40 Miles   20     0                20              40 Miles
+
+
+ INDOT ROADS 2005                                   FLOOD AFFECTED ROADS
+                                                                                                      32
+             FLOOD AFFECTED ROADS
+
+
+
+     3000
+            2684                            2471       2481              2565
+     2500
+                                    2207
+                     1825                                       1914
+     2000                   1776                                                  1586
+     1500
+Km
+     1000
+      500                                       147       238      147      174
+               110     78      34      74                                            80
+        0
+             Vigo    Clay   Owen    Sullivan Greene    Knox     Daviess Gibson     Pike
+                                            Counties             Roads INDOT- 2005 (km)
+                                                                 Roads Under Flood (km)
+
+
+
+
+                                                                                     33
+http://www.in.gov/dot/gis/slo/RoadCloseText.pdf
+
+
+
+
+                                                  34
+                    FLOODPLAINS GENERAL
+
+
+                VIGO                                      VIGO
+                         CLAY                                         CLAY
+                                   OWEN                                      OWEN
+
+
+
+
+              SULLIVAN                                  SULLIVAN
+                            GREENE                                       GREENE
+
+
+
+
+               KNOX                                      KNOX         DAVIESS
+                         DAVIESS
+
+
+
+
+                                                             PIKE
+                    PIKE                           GIBSON
+        GIBSON
+
+                                              20    0            20             40 Miles
+20      0           20             40 Miles
+
+
+FLOODPLAINS       FLOOD WATER IN FLOODPLAINS       FLOOD WATER OUT OF FLOODPLAINS
+                  93000 Hectares                   6000 Hectares                           35
+Web Mapping
+
+
+
+
+              36
+        Web interface
+
+
+
+
+https://engineering.purdue.edu/CE/Academics/Groups/Geomatics/floodmaps
+39
+•   Port-au-Prince Haiti- 2010
+    Earthquake
+
+• GeoEye
+
+• Date: Jan 13, 2010
+
+• Resolution: 0.5m
+• 1-m LiDAR DSM
+
+• Date: Jan 21/22, 2010
+
+• World Bank, RIT,
+
+
+
+
+   41
+Urban complexity–Port au Prince
+
+
+
+
+                                  42
+        Types of Buildings
+
+
+
+
+GeoEye-1 ( 0.5 m)    Aerial Image (3 inch)   43
+Damaged Buildings
+
+
+
+
+                                   46
+   Complete and Partial Collapse
+                      Damaged Buildings
+
+
+
+
+                           Roof collapse
+
+
+
+
+Side walls collapse                        Partial collapse
+                                                        47
+         Rubble Mapping
+
+
+
+
+Rubble                    48
+Roads and Streets-Rubble/Debris
+
+
+
+
+                         Rubble/debris
+
+
+
+
+                                     49
+   Pre- and post-earthquake aerial images
+
+
+
+
+the building vector polygons overlaid
+                     Conclusions
+• Timely availability of Remote Sensing data helps
+
+    – To quickly map and visualize the disaster impact
+
+    – To assess damage
+
+    – To plan remedial measures
+
+
+•   Availability of flood extent maps on internet help
+
+    allocating /routing resources
+
+                                                         52
+

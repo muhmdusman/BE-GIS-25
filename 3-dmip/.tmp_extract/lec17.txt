@@ -1,0 +1,302 @@
+Classification Accuracy Assessment
+  Sources of Classification Error
+• Errors may be caused by
+
+  • Misidentification of parcels / Inaccurate selection of
+
+    Training samples
+
+  • Excessive generalization
+
+  • Variations in detail of interpretation
+
+  • Analyst’s experience
+          Accuracy Assessments
+• To determine the quality of the information derived from RS
+  data through the classification process
+
+• Purpose:
+   • To validate the classification results , may be used for
+     decision-making processes
+
+   • End user must have a clear view of the quality of
+     information before using it for any practical application
+           Accuracy Assessments
+• Compare two sources of information
+
+   • Pixels or polygons from Classified RS image
+
+   • Ground reference information (test data, a standard)
+
+• If the Image classification results corresponds closely with test
+  data, the processing is “Accurate” or of high accuracy
+
+• In statistical terms , high accuracy means a low bias between
+  the estimated/ classified and reference values
+          Accuracy Assessments
+• For accuracy assessment, the classified image and the reference
+
+  data must be co-registered, such that both are at comparable
+
+  level
+           Accuracy Assessments
+• Types:
+   • Qualitative
+
+   • Quantitative
+
+• Qualitative assessments:
+   – By comparing the classified image with some reference
+     maps, high resolution aerial images or the ground truth data
+     (generally visual)
+                Assessment Types
+
+• Quantitative assessments
+
+   • To check the agreement between the classified and the
+
+     reference data, to identify different types of classification
+
+     errors
+        Quantitative Assessments
+• As the quantitative accuracy assessment relies upon the
+
+  reference data, it is imperative that the reference data be highly
+
+  accurate
+
+• It is better to get fewer, but more accurate reference data which
+
+  are truly representative of the classes under assessment
+         Quantitative Assessments
+
+•   Quantitative accuracy assessments can be performed as:
+
+
+     • Non-site-specific assessments
+
+
+     • Site-specific assessments
+
+     • Error Matrix
+          Quantitative Assessments
+• Non-site-specific assessments
+
+   – Does not consider agreement between the two maps at specific
+
+     locations, but only the overall figures for the two maps (areas-based
+
+     comparison)
+
+   – Even though there may be close agreement between estimated class
+
+     areas, the classification even then be inaccurate in terms of locational
+
+     error, (no information about the locational accuracy)
+Non-site-specific assessments
+         Quantitative Assessments
+
+• Site-specific assessments
+
+
+   – Assessment of the agreement between the classified and
+
+
+     reference maps at specific locations
+              Site-specific Assessments
+
+
+
+
+Reference data (shown here as black or white crosses) with known locations are used to
+                                assess map accuracy
+                                 Sampling
+• What sampling scheme should be used?
+
+• How many samples should be collected?
+
+•   Random Samples: is best with a large enough sample size,
+
+     – However, as sample size decreases, categories that are less prevalent on the
+
+       landscape can be missed using a simple random sample
+
+• Stratified random sample: based on class categories
+
+• “Sufficient” sample size? ----50 –100 samples per category as a general
+
+    guideline
+              Confusion/Error Matrices
+
+• Confusion/error matrices ( site specific )
+
+   • Accepted as standards for evaluating and reporting the accuracy of
+
+      classification results
+
+   • Are also known as Error or Confusion or Contingency matrices
+
+      because they identify the errors as well as the misclassifications and
+
+      confusion among different classes
+      Accuracy Assessment-Error Matrix
+•   Comparison is done by creating an error matrix from which different
+
+    accuracy measures can be calculated
+
+• Error matrix compares on class-by-class basis the relationship between
+
+    known reference data (ground truth) and corresponding results of
+
+    automated classification
+
+• Matrix is square, no of rows equal to number of classes
+Error Matrix
+  Classified Image
+
+
+
+
+                     1.   Non Forest (10)
+                     2.   Forest (10)
+
+
+
+
+                                 19
+                            Error Matrix
+Classification Data              Reference Data
+
+
+                        Forest        Water        Urban         Row Total
+
+       Forest             28           14            15             51
+       Water               1           15             5             21
+       Urban               1            1            20             22
+    Column Total          30           30            40             100
+
+•   Pixels that are correctly classified are located along the major diagonal
+    of the error matrix
+
+•   All non diagonal elements of matrix represent error of Omission or
+    Commission
+                 Accuracy Measures
+•   Overall classification accuracy,
+
+•   Producer’s accuracy (Errors of Omission)
+
+•   User’s (Consumers) accuracy (Errors of Commission)
+                    Accuracy Measures
+• The percentage of correctly classified pixels and is computed as:
+
+                                          ∑𝑨
+                    𝐎𝐯𝐞𝐫𝐚𝐥𝐥 𝐀𝐜𝐜𝐮𝐫𝐚𝐜𝐲 𝐎𝐀 =    × 𝟏𝟎𝟎
+                                          ∑𝑩
+   • where, ∑𝑨 is the sum of pixels assigned to correct classes (diagonal
+      elements), and ∑𝑩 is the sum of the total elements of the error matrix
+                       Error Matrix
+
+• Error of Omission and Commission
+  – Assignment of an actual class on ground to different
+    class on classified map
+     • Pixels of actual class grass on ground, classified as class trees
+
+              is error of omission for Class Grass
+
+                               and
+
+             error of Commission for Class Trees
+                     Producer’s Accuracy
+• Is a measure of Errors of Omission
+• Is an evaluation from an analyst’s point of view to see how well he was able
+    to correctly classify ground features
+• Informs the analyst that, e.g. of the actual forest, ---% was correctly
+    classified.
+                                                        𝑪
+•                         𝐏𝐫𝐨𝐝𝐮𝐜𝐞𝐫 ′ 𝐬 𝐀𝐜𝐜𝐮𝐫𝐚𝐜𝐲 𝐏𝐀 =       × 𝟏𝟎𝟎
+                                                        ∑𝑪
+
+• where C is the number of reference pixels correctly assigned to a class,
+• ∑𝑪 is the total number of pixels of that class from the reference data, (i.e.
+    the respective class column total)
+                          User’s Accuracy
+•   Is the measure of the Errors of Commission
+
+•   Is the reliability of the classified data from the user’s perspective and indicates the
+    probability that pixels classified on a map represent the same class on the ground
+
+•   It tells the user of the map that, of the area labeled forest on the map, --% actually
+    corresponds to forest on the ground
+
+                                               𝑪
+                           𝐔𝐬𝐞𝐫 𝐀𝐜𝐜𝐮𝐫𝐚𝐜𝐲 𝐔𝐀 =    × 𝟏𝟎𝟎
+                                              ∑𝑹
+
+•   where C is the number of reference pixels correctly assigned to a class,
+
+•   ∑𝑹 is the total number of pixels classified to that class, (class row total)
+
+•   Informs the analyst that, e.g. of the actual forest, ---% was correctly classified.
+                      Error Matrix
+                       (Classified Image)
+
+                                              1. Non Forest
+                                              2. Forest
+
+
+
+
+                                            User’s accuracy
+Producer’s accuracy
+                                            NF= 6/7 =88 %
+NF = 6/10 = 60 %
+ F= 4/10 = 40 %                             W = 9/13 = 69%
+
+Overall accuracy
+6+9 =15 /20= 75 %
+
+
+
+
+                                                              29
+                      Error matrix of Three classes
+                                                         Row total
+Classification Data        F        W        U
+
+         F                28        14       15             57
+        W                  1        15       5              21
+         U                 1        1        20             22
+ Column Total             30        30       40            100
+Producer’s accuracy                           User’s accuracy
+F=28/30= 93 %
+W= 15/30 =50 %                                F= 28/57 =49 %
+U=20/40 = 50 %                                W = 15/21 = 71%
+Overall accuracy                              U = 20/22 = 91 %
+28 +15 +20 =63/100= 63 %
+                                  Kappa
+•   Another measure of statistical classification accuracy can be performed using
+    the kappa (κ hat) index of agreement
+
+
+
+
+•   r:      number of land cover classes (rows)
+•   N:      total number of test pixels included in the error matrix
+•   ∑xii total of diagonal elements
+•   xi+ : total in row i
+•   x+i: total in column i of the matrix elements
+•   Kappa values are typically between 0 and 1, an indication that the observed
+    classification is that much percent better than the results from chance
+    assignment
+•   Considers the possibility of the agreement occurring by chance
+              480+52+313+126+342+359 =1672
+
+
+   (485*480)+(72*68)+(353*356)+(142*248)+(459*402)+(481*438) =793776
+
+N= 1992
+    1992(1672)-793776
+                          =0.799
+    (1992)2   -793776
+35
+
